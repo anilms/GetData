@@ -1,5 +1,4 @@
 # GetData
-<<<<<<< HEAD
 ###Data
 Training and testing data are in the following files<br>
 1. X_train.txt
@@ -32,28 +31,6 @@ So the data is grouped into activity and subject using function group_by() <br>
 Mean is calculated on this grouped data for all columns using summarise_each() <br>
 
 Description on the features can be found here http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones <br>
-=======
-
-summary.txt produced by run_analysis.R contains the following variables:
-
-###Activity
-Six different activities are tracked as shown in first column <br>
-  - WALKING            
-  - WALKING_UPSTAIRS   
-  - WALKING_DOWNSTAIRS 
-  - SITTING           
-  - STANDING           
-  - LAYING 
-
-
-###Subject
-Data is measured for 30 different subjects as shown in second column
-
-
-###Summary
-Remaining 86 columns gives the mean measured for each measurements in the original data <br>
-Description on these can be found here http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones <br>
->>>>>>> c984d1a9d6d5a1eb02eb5a3e3e51b3b86b3bd71e
 The Original Data can be found here https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip <br>
  [1] "tBodyAcc-mean()-X"                   
  [2] "tBodyAcc-mean()-Y"                   
